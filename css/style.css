@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition:all 0.3s ease-in-out;
+}
+body{
+    background-color: #bebebe;
+}
+.container{
+    clear:both;
+    overflow:auto;
+}
+nav{
+    float:right;
+    margin-right: 40px;
+}
+.logo img{
+   float:left;
+}
+.logo h2{
+    display: block;
+    color: #0060B6;
+}
+ul li{
+  display: inline-block; 
+  /* padding: 5px; */
+  font-size:20px; 
+  font-family:raleway;
+}
+a{
+    color: #0060B6;
+    /* text-decoration: none; */
+}
+.hero img{
+    width: 100%;
+    height: 400px;
+}
+.product-section,.feature-video{
+    width: 100%;
+}
+.product-sub-section,.feature-video-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: auto;
+}
+.section-header{
+    margin: 10px;
+}
+.section-header h2{
+    color: #0060B6;
+}
+.section-headerg h2{
+    color: #0060B6;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-headerg address{
+    color: #0d0d0e;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.section-product-image img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.feature-product-video img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: auto;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.footertext{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: auto;
+}
+
+.footertext ol{
+    margin-left: 30px;
+}
+
+.footertext ol a{
+    text-decoration: none;
+    color: white;
+}
+
+
+p{
+    text-align: center;
+    line-height: 60px;
+}
+
+.about-container{
+    margin-top: 60px;
+    width: 100%;
+}
+.about-container-inside{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: auto;
+}
+.about-container .title{
+    text-align: center;
+    color: #0060B6;
+    margin-bottom: 60px;
+}
+
+.about-container .sub-title{
+    text-align: left;
+    color: #0060B6;
+}
+
+.content p{
+    text-align: justify;
+    line-height: 2.0;
+    margin-top: 20px;
+}
+
+input{
+    border: none;
+    width: 40%;
+    padding: 10px 10px;
+}
+
+textarea{
+    border: none;
+}
+.button {
+    background-color: #d9d9d9;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 10%;
+  }
